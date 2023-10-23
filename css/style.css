@@ -29,6 +29,25 @@
     height: 300px;
 }
 
+.display_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.color_white{
+    color: white;
+}
+
+.font-size_10{
+    font-size: 8px;
+    text-align: center;
+}
+
+.text-align_center{
+    text-align: center;
+}
 
 .row_header {
     width: 80%;
@@ -61,13 +80,31 @@
     background-color: yellow;
 }
 
-.bg_blue {
-    background-color: blue;
+.logo_discord {
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.button_header {
+    background-color: white;
+    border-radius: 12px;
+    font-size: 8px;
+    font-weight: 600;
+    padding: 6px;
 
 }
 
+.text-align_right {
+    text-align: right;
+}
+
+.bg_blue {
+    background-color: blue;
+}
+
 .bg_darkpink {
-    background-color: palevioletred;.
+    background-color: palevioletred;
 }
 
 .bg_white {
@@ -89,14 +126,17 @@
     background-color: black;
 }
 
+.col20 {
+    width: 20%;
+}
+
 .col25 {
     width: calc(25%);
-    border: 1px dotted black
+
 }
 
 .col50 {
     width: calc(50%);   
-    border: 1px dotted black 
 }
 
 .col66 {
