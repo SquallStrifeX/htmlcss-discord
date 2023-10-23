@@ -36,10 +36,31 @@
 
 }
 
+.back_header{
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bg-img1 {
+    background-image: url(../img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .color_white{
     color: white;
 }
 
+.color_back {
+    color: black;
+}
+
+.font-size_15{
+    font-size: 10px;
+}
 .font-size_10{
     font-size: 8px;
     text-align: center;
