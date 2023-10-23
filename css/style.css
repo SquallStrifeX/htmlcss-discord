@@ -126,12 +126,14 @@
     justify-content: center;  
 }
 
-.row_main {
-    width: 60%;
+
+.img {
+    height: 8%;
+    width: auto;
 }
 
 #row_main2 {
-    height: 95%;
+
     width: 60%;
 }
 
@@ -164,6 +166,7 @@
     font-size: 8px;
     font-weight: 600;
     padding: 6px;
+    border: 0;
 
 }
 
@@ -176,11 +179,11 @@ li {
 }
 
 .color_purple{
-    color: purple;
+    color: rgb(116,140,217);
 
 }
 .bg_blue {
-    background-color: blue;
+    background-color: rgb(42,94,232)
 }
 
 .bg_darkpink {
@@ -204,6 +207,10 @@ li {
 
 .bg_black {
     background-color: black;
+}
+
+.bg_violet {
+    background-color:rgb(116,140,217);
 }
 
 .col20 {
@@ -245,9 +252,7 @@ li {
 }
 
 .col_footer {
-    height: 50%;
-    width: 5%;
-    border: 1px dotted black;
+    width: 15%;
 }
 
 .text {
